@@ -1,0 +1,54 @@
+{
+  "name": "dwa-d-print",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Верстка макета «dwa-d-print»",
+  "main": "index.js",
+  "scripts": {
+    "test": "editorconfig-tools check *",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "author": "Roman Gulyaev",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dyadya-glen/dwa-d-print.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dyadya-glen/dwa-d-print.git"
+  },
+  "homepage": "http://glen-records.ru/dwa-d-print/",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "3.9.0",
+    "eslint-config-htmlacademy": "0.2.x",
+    "browser-sync": "^2.18.8",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.2",
+    "editorconfig-tools": "^0.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "eslint js/"
+  },
+   "scripts": {
+    "test": "editorconfig-tools check *",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "engines": {
+    "node": "6.10.0"
+  }
+}
